@@ -5,7 +5,7 @@ console.log('JavaScript ve stránce funguje');
 
 const movieList = document.querySelector ('#movies')
 
-const showMovies = (items) => {
+const showMovies = (data) => {
     data.forEach((item) => {
         
        /* movieList.innerHTML += `
